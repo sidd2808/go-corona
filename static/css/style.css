@@ -1,0 +1,162 @@
+table {
+margin-left: 1px;
+margin-right: 1px;
+border-collapse: collapse;
+width: 97%;
+font-size: 20px;
+color:orange
+}
+
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: #B8A29D;
+  color: #130635;
+}
+tr:hover {
+background-color:#7fc0c3;
+color: blue;
+font-size: 18px;
+}
+
+h1 {
+margin:0px;
+}
+
+h5 {
+line-height: 1.2;
+}
+
+.bg-yellow {
+background-color: #f5f0ec;
+}
+.bg-blue, .r-rate{
+background-color: #ecebf3;
+}
+.bg-red, .d-rate {
+background-color: #b7aeaf;
+}
+.bg-green{
+background-color: #30d6e6fa;
+}
+.bg-orange{
+background-color: #f9f9f9;
+}
+
+.bg-info{
+background-color: #697964;
+}
+.bg-blue, .bg-green, .bg-red, .bg-yellow, .bg-orange, .r-rate, .d-rate{
+    border-radius: 10px;
+    margin: 5px;
+    padding: 5px;
+    position: relative;
+    box-shadow: 2px 2px 2px lightgrey;
+    line-height: .6;
+}
+
+.bg-info {
+    border-radius: 10px;
+    margin: 5px;
+    padding: 5px;
+    position: relative;
+    box-shadow: 2px 2px 2px lightgrey;
+    line-height: .9;
+}
+.container-display1 {
+    border-radius: 15px;
+    margin: 5px;
+    padding: 5px;
+    position: relative;
+    box-shadow: 3px 3px 3px #d4bebe;
+    line-height: 1;
+    background: #cec6ef;
+}
+#total, #active, #cure, #death, #states, #source, #drate, #rrate {
+    flex: 2;
+}
+
+.cum-cases, .daily-cases, .bar-graph2, .bar-graph3, .test-graph, .dist-graph, .row-pie, .data-row, .data-table, .India-map {
+    border-radius: 10px;
+    margin: 5px;
+    padding: 5px;
+    position: relative;
+    background-color: #f9f9f9;
+    box-shadow: 2px 2px 2px lightgrey;
+    line-height: .9;
+}
+
+.all-tabs-inline {
+    height: 50px;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 5px;
+    position: relative;
+    background-color: #b59898;
+    vertical-align: middle;
+}
+.cum-cases, .daily-cases, .bar-graph2, .test-graph, .data-table, .India-map{
+    width: 48.5%;
+    }
+
+.data-table, .India-map {
+overflow-x: scroll;
+max-height: 700px;
+text-align: center;
+background: black;
+}
+
+
+@media screen and (min-width : 0px) and (max-width : 1350px){
+.cum-cases, .daily-cases, .bar-graph2, .test-graph, .data-table, .India-map{
+  width:97%;
+}
+}
+
+strong {
+    color: yellow;
+}
+body {
+    font-size: 14px;
+    line-height: 1.12;
+    }
+p {
+font-size: 15.5px;
+font-weight: bold;
+}
+a {
+color: #3c1edb;
+text-decoration: blink;
+cursor: pointer;
+}
+
+.news-0, .news-1, .news-2, .news-3, .news-4, .news-5, .news-5, .news-6, .news-7, .news-8, .news-9, .news-10,
+ .news-11, .news-12, .news-13, .news-14, .news-15,.news-16, .news-17, .news-18, .news-19, .news-20 {
+    border-radius: 10px;
+    margin: 5px;
+    padding: 5px;
+    position: relative;
+    background-color: #0a063e;
+    box-shadow: 2px 2px 2px lightgrey;
+    overflow-x: scroll;
+    vertical-align: text-top;
+    text-align: justify;
+}
+.footer{
+    border-radius: 10px;
+    margin: 5px;
+    padding: 5px;
+    position: relative;
+    background-color: #fff5f5;
+    box-shadow: 2px 2px 2px lightgrey;
+    line-height: 1.2;
+    width: 98%;
+}
+.git-image{
+border-radius: 10px;
+    margin: 5px;
+    padding: 5px;
+    position: relative;
+    background-color: #3c1111;
+    box-shadow: 2px 2px 2px lightgrey;
+}
